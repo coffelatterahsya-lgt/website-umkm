@@ -28,14 +28,14 @@ nav ul {
 }
 
 nav ul li a {
-  color: #fff;
+  color: hsl(0, 13%, 86%);
   text-decoration: none;
   padding: 8px 16px;
   transition: 0.3s;
 }
 
 nav ul li a:hover, nav ul li a.active {
-  background-color: #007bff;
+  background-color: #2769b4;
   border-radius: 4px;
 }
 
