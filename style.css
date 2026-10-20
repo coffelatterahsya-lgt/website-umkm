@@ -122,3 +122,88 @@ header .logo {
     margin-bottom: 10% ;
     color: #333;
 }
+
+/* styling isi about me */
+.about-section {
+    font-family: Arial, sans-serif;
+    color: #111;
+}
+
+.about-header {
+    background-color: #30466f;
+    color: #fff;
+    text-align: center;
+    padding: 18px;
+}
+
+.about-header h1 {
+    margin: 0;
+    font-size: 40px;
+}
+
+.about-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 55px;
+    padding: 35px 4.5%;
+}
+
+.about-left h2 {
+    font-size: 36px;
+    line-height: 1.2;
+    margin: 0 0 28px;
+}
+
+.address {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    margin-bottom: 38px;
+}
+
+.address p {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.location-icon {
+    font-size: 23px;
+}
+
+.btn-booking {
+    display: inline-block;
+    background-color: #30466f;
+    color: white;
+    text-decoration: none;
+    padding: 19px 35px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.btn-booking:hover {
+    background-color: #1e304f;
+}
+
+.about-right p {
+    font-size: 15.5px;
+    line-height: 1.7;
+    text-align: justify;
+    margin: 0 0 25px;
+}
+
+/* tampilan HP */
+@media (max-width: 768px) {
+    .about-content {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .about-left h2 {
+        font-size: 28px;
+    }
+
+    .about-header h1 {
+        font-size: 30px;
+    }
+}
