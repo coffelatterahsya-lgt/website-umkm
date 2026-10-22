@@ -2,14 +2,14 @@
 document.addEventListener("DOMContentLoaded", function () {
 
     // Nomor WhatsApp bengkel
-    const nomorWhatsApp = "08111111";
+    const nomorWhatsApp = "6288983492771";
 
     // Tombol WhatsApp mengambang
     const tombolWhatsApp = document.querySelector(".whatsapp-float");
 
     if (tombolWhatsApp) {
         tombolWhatsApp.href =
-            `https://wa.me/${0811111}?text=${encodeURIComponent(
+            `https://wa.me/${nomorWhatsApp}?text=${encodeURIComponent(
                 "Halo, saya ingin bertanya mengenai layanan bengkel."
             )}`;
 
@@ -23,13 +23,13 @@ document.addEventListener("DOMContentLoaded", function () {
     const menit = sekarang.getMinutes();
 
     const waktuSekarang = jam * 60 + menit;
-    const jamBuka = 8 * 60 +;
+    const jamBuka = 8 * 60;
     const jamTutup = 16 * 60 + 30;
 
     let statusBengkel;
 
     if (hari === 5){
-        statusBengkel >= "Bengkel sedang tutup";
+        statusBengkel = "Bengkel sedang tutup";
     } else if (waktuSekarang >= jamBuka && waktuSekarang < jamTutup){
         statusBengkel = "Bengkel sedang buka";
     } else {
