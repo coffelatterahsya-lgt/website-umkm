@@ -28,8 +28,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
     let statusBengkel;
 
-    if (hari === 0){
-        statusBengkel >= "Jum'at Tutup";
+    if (hari === 5){
+        statusBengkel >= "Bengkel sedang tutup";
     } else if (waktuSekarang >= jamBuka && waktuSekarang < jamTutup){
         statusBengkel = "Bengkel sedang buka";
     } else {
@@ -43,7 +43,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     if (jamOperasional) {
         jamOperasional.innerHTML =
-            "Senin - Sabtu Pkl. 08.00 - 16.30<br>" + "Jum'at tutup<br><strong>" + statusBengkel + "</strong>";
+            "Senin - Kamis, Sabtu - Minggu Pkl. 08.00 - 16.30<br>" + "Jum'at tutup<br><strong>" + statusBengkel + "</strong>";
     }
 
 });
