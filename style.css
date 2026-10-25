@@ -8,13 +8,15 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 50px;
-    background-color: #333;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    max-height: 100px;
+    background-color: #0f0f0f;
     color: #fff;
 }
 
 header .logo {
-    font-size: 24px;
+    font-size: 15px;
     font-weight: bold;
 }
 
@@ -27,7 +29,7 @@ header .logo {
 
 .li-navbar {
     list-style-type: none;
-    padding: 8px 16px;
+    padding: 8px 30px;
     margin: 5px;
     color: rgb(248, 241, 241);
     font-size: 30px;
@@ -57,7 +59,7 @@ header .logo {
 /* styling isi home */
 .hero {
   height: 80vh;
-  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('Motor.png') no-repeat center center/cover;
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('background.jpg.jpeg') no-repeat center center/cover;
   display: flex;
   justify-content: center;
   align-items: center;
